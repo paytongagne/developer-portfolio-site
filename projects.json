@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Embedded Telemetry Project",
+    "category": "Embedded Systems / Backend",
+    "summary": "Python-based telemetry simulation project with device readings, validation, status classification, and SQLite persistence.",
+    "technologies": ["Python", "SQLite", "Testing", "Systems Design"]
+  },
+  {
+    "name": "Algorithms and Data Structures in Python",
+    "category": "Computer Science Fundamentals",
+    "summary": "Readable implementations of searching, sorting, stacks, queues, and linked lists with complexity notes and tests.",
+    "technologies": ["Python", "Algorithms", "Data Structures", "pytest"]
+  },
+  {
+    "name": "Linux User Provisioning Automation",
+    "category": "Linux Automation",
+    "summary": "Dry-run focused automation project for parsing structured user records and planning safe account provisioning workflows.",
+    "technologies": ["Python", "Linux", "Automation", "CLI"]
+  }
+]
