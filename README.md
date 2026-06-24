@@ -12,37 +12,45 @@ This repository began as an early GitHub Desktop practice repo and is now being 
 - Create a simple static site that can later be deployed with GitHub Pages
 - Keep the design clean, readable, and recruiter-friendly
 
-## Planned Sections
+## Current Features
 
-- About
-- Technical Skills
-- Featured Projects
-- Experience Highlights
-- Resume Link
-- Contact Links
+- Static `index.html` portfolio starter page
+- Project metadata stored in `projects.json`
+- Site planning documentation in `docs/site-plan.md`
+- Recruiter-focused project positioning
+
+## Featured Project Categories
+
+- Embedded telemetry and backend data processing
+- Python automation and Linux workflows
+- Algorithms and data structures
+- SQL-backed applications
+- Configuration management and system administration
 
 ## Tech Stack
 
 - HTML
-- CSS
-- JavaScript
-- GitHub Pages
+- CSS planned
+- JavaScript planned
+- JSON project metadata
+- GitHub Pages planned
 
-## Portfolio Direction
+## Repository Structure
 
-The site will focus on projects related to:
+```text
+index.html          Portfolio page starter
+projects.json       Featured project metadata
+docs/site-plan.md   Design and content plan
+```
 
-- Embedded systems
-- Python automation
-- Cloud APIs
-- SQL-backed applications
-- C++/Qt software
-- Linux and systems administration
+## Roadmap
 
-## Next Steps
-
-- Add the initial `index.html` page
-- Add CSS styling
-- Add project cards for featured repositories
+- Add responsive CSS layout
+- Add project cards that read from project metadata
+- Add screenshots for featured repositories
 - Add GitHub Pages deployment instructions
-- Add screenshots once the layout is complete
+- Add resume download or external resume link
+
+## Portfolio Purpose
+
+This site is intended to serve as a central hub for software development, embedded systems, Linux automation, and technical project documentation.
