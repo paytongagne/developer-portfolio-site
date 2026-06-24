@@ -7,44 +7,63 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <h1>Payton Gagne</h1>
-    <p>Software Developer focused on embedded systems, cloud-connected applications, secure software, and systems engineering.</p>
-  </header>
-
   <main>
+    <header>
+      <h1>Payton Gagne</h1>
+      <p>Software Developer focused on embedded systems, cloud-connected applications, secure software, and systems engineering.</p>
+    </header>
+
     <section>
       <h2>Technical Focus</h2>
-      <div class="grid">
-        <article>
+      <div class="card-grid">
+        <article class="card">
           <h3>Software</h3>
-          <p>Python, C++, Java, C#, SQL, JavaScript, Qt/QML, REST APIs</p>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>REST APIs</li>
+          </ul>
         </article>
-        <article>
+        <article class="card">
           <h3>Systems</h3>
-          <p>Linux, Ubuntu, TCP/IP, DNS, DHCP, VMware, Apache2</p>
+          <ul class="tag-list">
+            <li>Linux</li>
+            <li>Ubuntu</li>
+            <li>TCP/IP</li>
+            <li>VMware</li>
+            <li>Apache2</li>
+          </ul>
         </article>
-        <article>
+        <article class="card">
           <h3>Embedded</h3>
-          <p>ESP32, Arduino, PCB testing, firmware workflows, MQTT</p>
+          <ul class="tag-list">
+            <li>ESP32</li>
+            <li>Arduino</li>
+            <li>PCB Testing</li>
+            <li>MQTT</li>
+            <li>Firmware</li>
+          </ul>
         </article>
       </div>
     </section>
 
     <section>
       <h2>Featured Projects</h2>
-      <div class="projects">
-        <article>
-          <h3>Embedded Telemetry Monitoring System</h3>
-          <p>Simulated device telemetry pipeline with backend processing, SQL storage, and monitoring workflows.</p>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Embedded Telemetry Project</h3>
+          <p>Python telemetry simulation project with device health classification, validation, SQLite persistence, and test coverage.</p>
         </article>
-        <article>
+        <article class="card">
           <h3>Linux User Provisioning Automation</h3>
-          <p>Python automation project for validating structured user records and preparing safe dry-run system workflows.</p>
+          <p>Python automation project for validating structured records and planning safe dry-run Linux workflow actions.</p>
         </article>
-        <article>
+        <article class="card">
           <h3>Algorithms and Data Structures</h3>
-          <p>Reference and practice repository focused on core data structures, algorithms, and problem-solving patterns.</p>
+          <p>Readable Python implementations of searching, sorting, stacks, queues, linked lists, and graph traversal.</p>
         </article>
       </div>
     </section>
